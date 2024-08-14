@@ -40,6 +40,7 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modCompileOnly files("/home/hotspring/repos/Carpet-TIS-Addition/versions/1.21.1/lib/NSF-fabric-carpet-1.21-1.4.147+v240729.jar")
 
 	// mods
 	if (project.carpet_core_version.startsWith('com.github.gnembon:fabric-carpet:')) {
